@@ -1,0 +1,25 @@
+services:
+  microservicio:
+    build: .
+    container_name: microservicio
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - SPRING_H2_CONSOLE_ENABLED=true
+      - SPRING_H2_CONSOLE_SETTINGS_WEB_ALLOW_OTHERS=true
+    networks:
+      - backend
+
+  # Se usa cuando queremos usar H2 en un archivo y no tenerlo en lugar de memoria
+  # h2db:
+  #   image: oscarfonts/h2
+  #   container_name: h2db
+  #   ports:
+  #     - "1521:1521"
+  #   networks:
+  #     - backend
+
+networks:
+  backend:
+    driver: bridge
