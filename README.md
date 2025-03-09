@@ -40,8 +40,16 @@ Para ejecutar este proyecto, necesitas tener instalados los siguientes programas
    Puedes realizar peticiones a los diferentes endpoints usando Swagger UI o herramientas como Postman.
    Swagger UI te permitirá ver los endpoints de la API de forma visual y hacer peticiones directamente desde tu navegador.
    Algunos de los endpoints disponibles son:
+   ```
    POST /api/huCatMoneda/crearMoneda – Crear una nueva moneda.
+   ```
+   ```
    GET /api/huCatMoneda/consultarMonedas – Obtener todas las monedas.
-   POST /api/huEmps/crearEmpleado – Crear un nuevo empleado.  
+   ```
+   ```
+   POST /api/huEmps/crearEmpleado – Crear un nuevo empleado.
+   ```
+   ```
    GET /api/huEmps/consultarEmpleados – Obtener todos los empleados.
-   
+   ```
+```
