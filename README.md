@@ -24,9 +24,18 @@ Para ejecutar este proyecto, necesitas tener instalados los siguientes programas
    En la raiz del proyecto donde se encuentra el archivo docker-compose.yml ejecuta lo siguiente:
    docker compose up --build
 3. **Acceso al proyecto**
-   API principal: http://localhost:8080
-   Documentacion de Swagger UI (para ver y probar la API): http://localhost:8080/swagger-ui.html
-   Consola de base de datos H2: http://localhost:8080/h2-console/
+   API principal:
+   ```
+   http://localhost:8080
+   ```
+   Documentación de Swagger UI (para ver y probar la API):
+   ```
+   http://localhost:8080/swagger-ui.html
+   ```
+   Consola de base de datos H2:
+   ```
+   http://localhost:8080/h2-console/
+   ```
 4. **Realizar peticiones a la API**
    Puedes realizar peticiones a los diferentes endpoints usando Swagger UI o herramientas como Postman.
    Swagger UI te permitirá ver los endpoints de la API de forma visual y hacer peticiones directamente desde tu navegador.
