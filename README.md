@@ -1,4 +1,4 @@
-# Prueva Técnica Desarrollo Web VentureSoft
+# Prueba Técnica Desarrollo Web VentureSoft
 
 Este proyecto es un microservicio desarrollado con Spring Boot, que utiliza Docker para su despliegue y Swagger para la documentación de la API. 
 Está diseñado para facilitar la creación y gestión de las entidades `HuCatMoneda` y `HuEmps` con una base de datos embebida en H2.
